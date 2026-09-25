@@ -10,10 +10,7 @@ void traverse(int arr[], int n) {
 int insert(int arr[], int n, int pos, int value) {
  int i;
  if (n >= MAX) {
- printf("Array is full. Cannot insert.\n"); Department of Computer Science and Engineering
-Data Structures and Algorithms
-Unit 1 Page 4 of 52
-Prepared by: PREETHI R, Assistant Professor, Dept. of CSE
+ printf("Array is full. Cannot insert.\n"); 
  return n;
  }
  if (pos < 0 || pos > n) {
